@@ -1,14 +1,14 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
-import Main from './components/Main';
 import Footer from './components/Footer';
+import Routing from './components/Routing';
 
 function App() {
   return (
     <main>
     <Navbar/>
-    <Main/>
+    <Routing />
     <Footer/>
     </main>
   );
