@@ -13,7 +13,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
         <nav>
         <nav className="burger">
             <img 
-                src={require(".../icon_assets/Logo .svg")}
+                src={require(".../icon_assets/nav-logo.svg")}
                 alt="Little Lemon logo"
                 className="nav-image">
                 </img>
