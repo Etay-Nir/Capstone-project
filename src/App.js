@@ -6,11 +6,11 @@ import Routing from './components/Routing';
 
 function App() {
   return (
-    <main>
+    <>
     <Navbar/>
     <Routing />
     <Footer/>
-    </main>
+    </>
   );
 }
 
