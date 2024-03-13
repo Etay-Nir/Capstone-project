@@ -8,7 +8,7 @@ function Navigation(props) {
       ) : (
         <Link to="/">
           <img
-            src={require("../assets/nav-logo.png")}
+            src={require("../assets/nav-logo.svg")}
             alt="Little Lemon logo"
             className="nav-image"
           ></img>
