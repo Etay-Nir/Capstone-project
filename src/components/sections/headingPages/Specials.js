@@ -12,7 +12,7 @@ function Specials() {
                 <a className='action-buttom' href={require('../../../assets/menu.webp')} target='_blank' rel='noreferrer'>Online Menu</a>
             </article>
 
-            <section className='special-cards'>
+            <section className='specials-cards'>
                 <SpecialCard image={GreekSalad} name="Greek Salad" price="$12.99" description="Refreshing salad, made with tomato, lettuce, feta cheese and olives."/>
                 <SpecialCard image={Bruschetta} name="Bruschetta" price="$9.99" description="Toast bread, tomato, prosciutto and cheese."/>
                 <SpecialCard image={LemonDessert} name="Lemon Dessert" price="$7.99" description="Our special take on lemon cheese cake."/>
