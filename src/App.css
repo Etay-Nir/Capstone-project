@@ -160,11 +160,19 @@ Link:link {
 }
 
 .specials-cards {
- display: none;
+ display: flex;
+ align-items: stretch;
+ justify-content: space-between;
+ position: relative;
+ padding: 1rem 0;
 }
 
 .menu-card {
-  padding-bottom: 2rem;
+  position: relative;
+  box-shadow: 1rem 1rem 1rem 1rem rgba(0,0,0,0.2);
+  max-width: 25rem;
+  float: left;
+  min-height: 350px;
 }
 
 .menu-card > img {
