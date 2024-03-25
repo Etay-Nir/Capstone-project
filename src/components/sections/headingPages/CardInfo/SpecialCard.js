@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom';
 
-function SpecialCard(props) {
+function SpecialCard({ className:string = '', ...props }) {
     return (
-        <article className="menu-card">
+        <article className={`menu-card ${className}`}>
             <img src={props.image} alt="Special Menu"></img>
             <section className="menu-card-content">
                 <h1>{props.name}</h1>
