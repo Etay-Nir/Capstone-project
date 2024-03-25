@@ -8,9 +8,9 @@ import SpecialCard from './CardInfo/SpecialCard';
 function CaruselPage() {
     return (
         <Carousel infiniteLoop={true} autoPlay={true} interval={5000} showStatus={false}>
-            <SpecialCard image={GreekSalad} name="Greek Salad" price="$12.99" description="Feta cheese, tomato, lettuce"/>
-            <SpecialCard image={Bruschetta} name="Bruschetta" price="$9.99" description="Bread, mango, green onions"/>
-            <SpecialCard image={LemonDessert} name="Lemon Dessert" price="$7.99" description="Lemon tart, vanilla icing"/>
+            <SpecialCard image={GreekSalad} className="w-100" name="Greek Salad" price="$12.99" description="Feta cheese, tomato, lettuce"/>
+            <SpecialCard image={Bruschetta} className="w-100" name="Bruschetta" price="$9.99" description="Bread, mango, green onions"/>
+            <SpecialCard image={LemonDessert} className="w-100" name="Lemon Dessert" price="$7.99" description="Lemon tart, vanilla icing"/>
         </Carousel>
     );
 }
