@@ -142,7 +142,9 @@ Link:link {
 
 /* specials */
 .specials {
-  padding: 6rem 6rem 6rem 6rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 6rem;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-name: slideDownFade;
@@ -150,29 +152,19 @@ Link:link {
 
 .specials-topbar {
   align-items: center;
-  margin-bottom: 20rem;
 }
 
 .specials-topbar > h1 {
   font-size: 5rem;
-  margin-right: 10rem;
-  margin-bottom: 10rem;
+  margin: 0;
 }
 
 .specials-cards {
-  position: relative;
-  box-shadow: 1rem 1rem 1rem 1rem rgba(0,0,0,0.2);
-  max-width: 10rem;
-  padding: 1vh 1vh 1vh 1vh;
-  margin-left: 1rem;
+ display: none;
 }
 
 .menu-card {
-  position: relative;
-  box-shadow: 1rem 1rem 1rem 1rem rgba(0,0,0,0.2);
-  max-width: 25rem;
-  float: left;
-  padding: 1vh 1vh 1vh 1vh;
+  padding-bottom: 2rem;
 }
 
 .menu-card > img {
@@ -206,14 +198,18 @@ Link:link {
 .special-button:hover {
   background-color: #495e57;
   color: #eeeeee;
-  border-style: solid;
-  border-width: 0.1rem;
-  border-color: black;
+  border: none;
   transition: 0.2s;
 }
 
 .specials-carousel {
-  display: none;
+  display: block;
+  margin: 0 2rem 0 2rem;
+}
+
+.w-100 {
+  width: 100%;
+  max-width: 100%;
 }
 
 /* testimonials cards */
@@ -225,9 +221,7 @@ Link:link {
 }
 
 .testimonials-topbar > h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin: 4rem 0 1rem 0;
+  margin: 2rem 0 1rem 0;
 }
 
 .testimonials-cards {
@@ -251,10 +245,6 @@ Link:link {
 
 .testimonials-carousel {
   display: none;
-}
-
-.specials-carousel {
-  margin: 0 2rem 0 2rem;
 }
 
 /* about */
