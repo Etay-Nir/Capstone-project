@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import GreekSalad from '../../../assets/food/greek-salad.jpg';
 import Bruschetta from '../../../assets/food/bruschetta.jpeg';
