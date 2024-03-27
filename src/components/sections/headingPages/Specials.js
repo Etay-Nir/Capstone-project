@@ -7,7 +7,7 @@ import SpecialCard from './CardInfo/SpecialCard';
 function Specials() {
     return (
         <section className='specials'>
-            <article className='special-topbar'>
+            <article className='specials-topbar'>
                 <h1>This week's specials</h1>
                 <a className='action-buttom' href={require('../../../assets/menu.webp')} target='_blank' rel='noreferrer'>Online Menu</a>
             </article>
